@@ -1,0 +1,9 @@
+{
+  "@@locale": "ar",
+  "settings": "الإعدادات",
+  "setDarkTheme": "تعيين الوضع المظلم",
+  "setLightTheme": "تعيين الوضع الفاتح",
+  "setSystemTheme": "تعيين الوضع الافتراضي",
+  "appTitle": "تطبيقي",
+  "welcomeMessage": "مرحبًا بك في تطبيقي!"
+}

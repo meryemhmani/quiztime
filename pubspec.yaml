@@ -1,0 +1,56 @@
+name: qgithub
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version:
+
+environment:
+  sdk: "^3.5.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adaptive_theme:   # Ajoutez une version pour cette dépendance
+  cupertino_icons:
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  flutter_localized_locales:    # Ajoutez une version pour cette dépendance
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  cupertino_icons:   # Ajoutez une version pour cette dépendance
+  font_awesome_flutter:    # Ajoutez une version pour cette dépendance
+  http:    # Ajoutez une version pour cette dépendance
+  flutter_custom_clippers:   # Ajoutez une version pour cette dépendance
+  html_unescape:   # Ajoutez une version pour cette dépendance
+  auto_size_text:    # Ajoutez une version pour cette dépendance
+  flutter_lints:
+  build_runner: # Maintenez la version de "flutter_lints"
+  flutter_gen_runner: ^5.0.0 # Génère le code pour les fichiers de localisation
+flutter:
+  uses-material-design: true
+  generate: true
+
+flutter_gen:
+  l10n:
+    arb-dir: lib/l10n
+    template-arb-file: app_en.arb
+    output-localization-file: app_localizations.dart
+    untranslated-messages-file: lib/l10n/untranslated_messages.json
+
+
+# Exemple d'assets et fonts (si nécessaire)
+  assets:
+    -lib/l10n
+#   - images/a_dot_burr.jpeg
+#   - images/a_dot_ham.jpeg
+# fonts:
+#   - family: Schyler
+#     fonts:
+#       - asset: fonts/Schyler-Regular.ttf
+#       - asset: fonts/Schyler-Italic.ttf
+#         style: italic

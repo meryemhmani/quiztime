@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "settings": "Settings",
+  "setDarkTheme": "Set Dark Theme",
+  "setLightTheme": "Set Light Theme",
+  "setSystemTheme": "Set System Theme",
+  "appTitle": "My Application",
+  "welcomeMessage": "Welcome to my app!"
+}
